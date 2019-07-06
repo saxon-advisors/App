@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Saxon Advisors Word Add-In</title>
+
+    <script src="Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Scripts/FabricUI/MessageBanner.js" type="text/javascript"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+
+    <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
+    <!-- <script src="Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
+    <!-- <script src="Scripts/Office/1/office.js" type="text/javascript"></script>  -->
+
+    <link href="Home.css" rel="stylesheet" type="text/css" />
+    <script src="Home.js" type="text/javascript"></script>
+
+    <!-- For the Office UI Fabric, go to https://aka.ms/office-ui-fabric to learn more. -->
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.min.css">
+    <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/2.1.0/fabric.components.min.css">
+    
+    <!-- To enable the offline use of Office UI Fabric, use: -->
+    <!-- link rel="stylesheet" href="Content/fabric.min.css" -->
+    <!-- link rel="stylesheet" href="Content/fabric.components.min.css" -->
+</head>
+<body>
+    <div id="content-header">
+        <div class="padding">
+            <h1>Saxon Advisors</h1>
+        </div>
+    </div>
+
+    <div id="content-main">
+        <div class="padding">
+            <p>This add-in formats the selected text to the Saxon Advisors formatting conventions. </p>
+            <br />
+            <h4>Click a button below to apply the style.</h4>
+
+            <button id="Title" class="ms-Button">
+                <span class="ms-Button-label">Title</span>
+            </button>
+            <br /><br />
+            <button id="Heading1" class="ms-Button">
+                <span class="ms-Button-label">Heading 1</span>
+            </button>
+            <br /><br />
+       
+            <button id="Heading2" class="ms-Button">
+                <span class="ms-Button-label">Heading 2</span>
+            </button>
+            <br /><br />
+            <button id="Heading3" class="ms-Button">
+                <span class="ms-Button-label">Heading 3</span>
+            </button>
+            <br /><br />
+            <button id="body" class="ms-Button">
+                <span class="ms-Button-label">Body</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
